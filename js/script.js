@@ -8,11 +8,9 @@ var studente = {
 
 console.log(studente);
 
-for(var key in studente){
-console.log(key + ": " + studente[key])
+for (var key in studente){
+    console.log(key + ": " + studente[key])
 };
-
-
 
 // Creare un array di oggetti di studenti. Ciclare su tutti gli studenti e stampare per ognuno nome e cognome;
 
@@ -30,9 +28,9 @@ var studenti = [
       cognome: "Di Renzo"
     }
 ];
-   console.log(studenti);
+console.log(studenti);
 
-for(var i = 0; i < studenti.length; i++) {
+for (var i = 0; i < studenti.length; i++) {
     for (var key in studenti[i]) {
     console.log(key + ": " + studenti[i][key])
     }
@@ -44,5 +42,5 @@ for (var i = 0; i < 1; i++) {
     studente.nome = prompt('Inserisci il tuo nome');
     studente.cognome = prompt('Inseriwsci il tuo cognome');
     studente.età = prompt('Inserisci la tua età');
-}
+};
 console.log(studente);
